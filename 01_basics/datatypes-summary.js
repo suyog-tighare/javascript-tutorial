@@ -36,3 +36,27 @@
 // console.log(typeof myFunction);
 // console.log(typeof(bigNumber));
 // console.log(typeof score);
+
+// ********memory type in JS *********
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubeName = "hiteshchowdhury.com"
+
+let anotherName = myYoutubeName
+anotherName = "chai aur code"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email : "user@gmail.com",
+    upi : "upi@ybl"
+
+}
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
