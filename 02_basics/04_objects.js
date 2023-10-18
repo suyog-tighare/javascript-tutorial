@@ -34,21 +34,46 @@ tinderUser.isLoggedIn = false
 // const obj3 ={...obj1,...obj2}
 // console.log(obj3);
 
-const users = [
-    {
-        id : 1,
-    email: "sjnfwaf@gmail.com" 
-   },
-    {
-        id : 2,
-    email: "fsfss@gmail.com" 
-   }
-]
-users[1].email
-console.log(tinderUser);
+// const users = [
+//     {
+//         id : 1,
+//     email: "sjnfwaf@gmail.com" 
+//    },
+//     {
+//         id : 2,
+//     email: "fsfss@gmail.com" 
+//    }
+// ]
+// users[1].email
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
 
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+// Destructuring of Objects
+
+const course = {
+    courseName : "JS in hindi",
+    price : "999",
+    courseInstructor : "hitesh"
+}
+// course.courseInstructor
+
+const {courseInstructor: instructor}= course
+// console.log(courseInstructor)
+console.log(instructor);
+
+// API can send data in JSON format ass below
+// {
+//     "name" : "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+// [
+//     {},
+//     {},
+//     {}
+// ]
