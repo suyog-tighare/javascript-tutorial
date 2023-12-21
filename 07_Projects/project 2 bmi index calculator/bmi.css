@@ -1,0 +1,24 @@
+h1{
+    padding-top: 20px;
+}
+.container{
+    background-color: grey;
+    width: 575px;
+    height: 825px;
+    padding-left: 200px;
+    
+}
+button{
+    margin-left: 130px;
+    padding : 5px;
+    border-radius: 5px;
+}
+#height,
+#weight {
+  width: 150px;
+  height: 25px;
+  margin-top: 30px;
+}
+h3{
+    position: center;
+}
