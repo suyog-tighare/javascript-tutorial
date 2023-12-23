@@ -7,7 +7,7 @@
 // console.log(number1+number2);
 // }
 // const result = addNumbers(3,5)
-// console.log("Result:",result)
+// console.log(`Result:$(result));
 // addNumbers(3,4)
 // addNumbers("3","4")
 
