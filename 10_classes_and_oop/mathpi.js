@@ -9,7 +9,7 @@
 const chai = {
     name : 'ginger chai',
     price : 250,
-    isAvailable : true
+    isAvailable : true,
  orderChai : function(){
         console.log("chai nhi bani");
     }
